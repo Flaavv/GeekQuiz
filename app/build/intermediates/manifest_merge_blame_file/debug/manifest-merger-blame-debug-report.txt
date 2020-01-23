@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.topquizz"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /home/stag/.gradle/caches/transforms-2/files-2.1/c0a39027978b83a483a047f5c31d0c4e/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/quizz"
+15-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:7:9-37
+16        android:label="@string/app_name"
+16-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:8:9-41
+17        android:supportsRtl="true"
+17-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:10:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.topquizz.controller.GameActivity" />
+20-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:12:9-70
+20-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:12:19-58
+21        <activity android:name="com.example.topquizz.controller.MainActivity" >
+21-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:13:9-19:20
+21-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:13:19-58
+22            <intent-filter>
+22-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:14:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:15:17-69
+23-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:17:17-77
+25-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:20:9-23:20
+29            android:name="com.example.topquizz.controller.ChoiceTheme"
+29-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:20:19-57
+30            android:label="@string/choiceTheme" >
+30-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:21:13-48
+31        </activity>
+32        <activity
+32-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:24:9-27:20
+33            android:name="com.example.topquizz.controller.JavaQuestion"
+33-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:24:19-58
+34            android:label="@string/javaTheme" >
+34-->/home/stag/AndroidStudioProjects/TopQuizz/app/src/main/AndroidManifest.xml:25:13-46
+35        </activity>
+36    </application>
+37
+38</manifest>
